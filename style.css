@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #35363A;
+    height: 100vh;
+}
+
+header{
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    padding: 0 18px;
+}
+
+.options{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.options a{
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.options a img{
+    height: 26px;
+    width: 26px;
+}
+
+.options .por img{
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 50%;
+    
+}
+
+main{
+    height: calc(100% - 110px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -200px;
+    
+}
+
+main .container .searcher input{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    min-width: 75%;
+    border: none;
+}
+
+main .container .searcher input::after{
+    border: none;
+}
+
+
+main .container .searcher span img{
+    margin-top: 2px;
+    height: 90%;
+    margin-right: 10px;
+}
+
+main .container .searcher div a img{
+    height: 80%;
+    margin-top: 4px;
+    margin-left: 17px;
+    border: none;
+    border-radius:  20px 20px;
+
+}
+
+main .container .searcher{
+    padding-left: 20px;
+    display: flex;
+    background-color: #ffffff;
+    height: 44px;
+    min-width: 580px;
+    border-radius: 55px;
+}
+
+main .container figure{
+    height: 115px;
+    margin-bottom: 35px;
+}
+
+main .container figure img{
+    height: 100%;
+}
+
+.section-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:120px ;
+    height: 120px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+
+
+.section-box:hover{
+    background-color: #454545;
+}
+
+#spaceBoxs{
+    margin-top: 10px;
+}
+
+.boxs-button{
+    display: flex;
+}
+
+.boxs-button a{
+    font-family: 'Segoe UI', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.boxs-button img{
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.divcards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+}
+
+
+footer .butt-bottom{
+    width: 190px;
+    height: 35px;
+    color: #4d70b8;
+    font-size: 14px;
+    display: flex;
+    margin-left: 84%;
+    background-color: #181818;
+    border: none;
+    border-radius: 30px;
+}
+
+footer .butt-bottom p{
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+footer .butt-bottom img{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 14px;
+}
