@@ -4,6 +4,112 @@
     box-sizing: border-box;
 }
 
+.multi-apps{
+    position: absolute;
+    margin-top: -400px;
+    margin-right: -70%;
+    background-color: #1B1B1B;
+    width: 320px;
+    height: 425px; 
+    padding-left: 10px;
+    padding-top: 15px;
+    border-radius: 25px;
+    border: 10px solid rgb(84, 84, 84);
+}
+.mas-perfil{
+    position: absolute;
+    margin-top: -200px;
+    margin-right: -60%;
+    background-color: #292A2D;
+    width: 420px;
+    height: 615px;
+    padding-left: 13px;
+    padding-top: 15px;
+    border-radius: 25px;
+}
+
+
+.add-more{
+    position: absolute;
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.box-add{
+    padding: 20px;
+    position: absolute;
+    z-index: 100;
+    color: #ffffff;
+    background-color: #292A2D;
+    width: 510px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.non-visible-1{
+    display: none;
+}
+
+.non-visible-2{
+    display: none;
+}
+
+.box-add h4{
+    font-size: 14px;
+    color: #c6c6c6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}   
+ 
+.box-add label{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #969696;
+    font-size: 13px;
+}
+
+.box-add input{
+    width: 100%;
+    height: 28px;
+    border-radius: 5px;
+    border: none;
+    background-color: #191919;
+    color: #ffffff;
+}
+
+.box-add .bt{
+    display: flex-end;
+    padding-left: 63%;
+    padding-top: 40px;
+}
+
+.bt a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.bt .bt-1{
+    color: #7da1ea;
+    border: #777777 1px solid;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+.bt .bt-2{
+    color: #8a8a8a;
+    background-color: #363636;
+    padding: 7px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+
+
+
+
 body{
     background-color: #35363A;
     height: 100vh;
@@ -110,14 +216,15 @@ main .container figure img{
     justify-content: center;
     width:120px ;
     height: 120px;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 15px;
+    cursor: pointer;
 }
 
 
 
 .section-box:hover{
-    background-color: #454545;
+    background-color: #4A4A4E;
 }
 
 #spaceBoxs{
@@ -173,3 +280,102 @@ footer .butt-bottom img{
     margin-left: 20px;
     height: 14px;
 }
+
+
+
+@media (max-width: 700px) {
+    .searcher input{
+        min-width: 60px !important;
+    }
+    main .container .searcher{
+        min-width: 240px;
+        padding-right: 10px;
+    }
+    main .container .searcher div a img{
+        margin-left: 0px;
+    }
+    .rb{
+        display: none;
+    }
+    .mt{
+        margin-top: 20px !important;
+    }
+    footer .butt-bottom{
+        margin-left: 59% ;
+    }
+    .multi-apps{
+        margin-right: -25%;
+        margin-top: -370px;
+    }
+    .mas-perfil{
+        margin-right: -10%;
+    }
+    .box-add{
+        width: 80%;
+    }
+    .box-add input{
+        height: 40px !important;
+    }
+    .box-add .bt{
+        display: flex-end;
+        padding-left: 53%;
+        padding-top: 30px;
+    }
+}
+
+@media (min-width:1500px){
+    .multi-apps{
+        margin-right: -75%;
+    }
+    .mas-perfil{
+        margin-right: -70%;
+    }
+   footer .butt-bottom{
+        margin-left: 87% ;
+    }
+}
+@media (min-width:2000px){
+    .multi-apps{
+        margin-right: -82%;
+    }
+    .mas-perfil{
+        margin-right: -80%;
+    }
+    footer .butt-bottom{
+        margin-left: 92% ;
+    }
+}
+
+@media (max-width: 410px) {
+    main{
+        padding-top: 130px;
+    }
+    .box-add .bt{
+        padding-left: 33%;
+        padding-top: 30px;
+    }
+    footer .butt-bottom{
+        margin-left: 49% ;
+        margin-top: -10px;
+    }
+    .multi-apps{
+        margin-top: -490px;
+        margin-right: -10%;
+        width: 320px;
+        height: 425px; 
+        padding-top: 15px;
+    }
+    .mas-perfil{
+        margin-top: -400px;
+        margin-right: 0%;
+        width: 390px;
+        height: 515px;
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+    .mas-perfil img{
+        width: 95%;
+        height: 100%;
+    }
+}
+

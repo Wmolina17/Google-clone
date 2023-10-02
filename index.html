@@ -12,12 +12,33 @@
         <div class="options">
             <a href="https://mail.google.com">Gmail</a>
             <a href="https://www.google.com/imghp?hl=es&tab=ri&authuser=0&ogbl">Imagenes</a>
-            <a href="#"><img src="./Imgs/dots.svg" alt=""></a>
+            <a id="dot-9" href="#"><img src="./Imgs/dots.svg" alt=""></a>
             <a href="#" class="por"><img src="./Imgs/portada.PNG" alt="" ></a>
         </div>
     </header>
 
-    <main>
+    <main class="body">
+        <div class="add-more non-visible-1"></div>
+        <div class="box-add non-visible-2">
+            <h4>Añadir atajo</h4>
+            <label for="name">Nombre</label>
+            <input type="text" name="name">
+            <label for="url">URl</label>
+            <input type="text" name="url">
+            <div class="bt">
+                <a class="bt-1">Cancelar</a>
+                <a class="bt-2">Hecho</a>
+            </div>
+        </div>
+
+        <div class="multi-apps non-visible-1 ">
+            <img src="Imgs/multi-apps.PNG" alt="">
+        </div>
+
+        <div class="mas-perfil non-visible-1">
+            <img src="Imgs/mas-perfil.PNG" alt="">
+        </div>
+
         <div class="container">
 
             <figure><img src="./Imgs/logo-g.PNG" alt=""></figure>
@@ -27,12 +48,11 @@
                 <span class="search-logo"> <img src="./Imgs/logo-buscador.PNG" alt=""></span>
                 <input type="search" placeholder="Buscar en Google o escribir una URL">
                 <div><a class="logo-micro" href=""> <img src="./Imgs/logosSearcher.PNG" alt=""></a></div>
-                
             </div>
 
 
-            <div id="spaceBoxs" class="boxs-button">
-                <a href="https://mail.google.com"> 
+            <div id="spaceBoxs" class="boxs-button mt">
+                <a class="rb" href="https://mail.google.com"> 
                     <section class="section-box">
                         <div class="divcards"><img src="./Imgs/miniGoogle4.PNG" alt=""></div> 
                         <p>Recibidos(24...</p>
@@ -71,7 +91,7 @@
                     </section>
                 </a>
                 
-                <a href="https://chat.openai.com">
+                <a class="rb" href="https://chat.openai.com">
                     <section class="section-box">
                         <div class="divcards"><img src="./Imgs/logo_gpt.PNG" alt=""></div>
                         <p>chat.openai.c...</p>
@@ -85,7 +105,7 @@
                     </section>
                 </a>
 
-                <a href="">
+                <a id="add-atajo" >
                     <section class="section-box">
                         <div class="divcards"><img src="./Imgs/mas4.PNG" alt=""></div>
                         <p>Añadir atajo</p>
@@ -102,6 +122,8 @@
             <p>Personalizar Chrome</p>
         </button>
     </footer>
+
+    <script src="main.js"></script>
     
 </body>
 </html>
