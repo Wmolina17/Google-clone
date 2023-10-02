@@ -347,9 +347,7 @@ footer .butt-bottom img{
 }
 
 @media (max-width: 410px) {
-    main{
-        padding-top: 130px;
-    }
+    
     .box-add .bt{
         padding-left: 33%;
         padding-top: 30px;
@@ -376,6 +374,47 @@ footer .butt-bottom img{
     .mas-perfil img{
         width: 95%;
         height: 100%;
+    }
+}
+@media (max-width: 375px) {
+    .box-add .bt{
+        padding-left: 26%;
+        padding-top: 30px;
+    }
+    footer .butt-bottom{
+        margin-top: -150px;
+        margin-left: 43% ;
+    }
+    .multi-apps{
+        margin-top: -380px;
+        margin-right: -10%;
+        width: 320px;
+        height: 425px; 
+        padding-top: 15px;
+    }
+    .mas-perfil{
+        margin-top: -360px;
+        margin-right: 0%;
+        width: 350px;
+        height: 440px;
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+    .mas-perfil img{
+        width: 95%;
+        height: 100%;
+    }
+    main .container figure img{
+        height: 75%;
+        width: 230px;
+    }
+    main .container figure{
+        margin-bottom: -5px;
+    }
+    .section-box{
+        width:100px ;
+        height: 100px;
+        font-size: 13px;
     }
 }
 
