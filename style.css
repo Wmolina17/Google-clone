@@ -376,13 +376,13 @@ footer .butt-bottom img{
         height: 100%;
     }
 }
-@media (max-width: 375px) {
+@media (max-width: 390px) {
     .box-add .bt{
         padding-left: 26%;
         padding-top: 30px;
     }
     footer .butt-bottom{
-        margin-top: -150px;
+        margin-top: -200px;
         margin-left: 43% ;
     }
     .multi-apps{
